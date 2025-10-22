@@ -22,13 +22,13 @@ To launch an AWS EC2 instance, connect to it using SSH via terminal, and verify 
 ```bash
 cd /path/to/keyfile
 
-### 3️⃣ Connect to EC2 via SSH
+3️⃣ Connect to EC2 via SSH
 
 Obtained the Public IPv4 of the EC2 instance.
 
 Connected using SSH:
 
-# Ubuntu
+Ubuntu
 ssh -i "your-key-file.pem" ubuntu@<EC2-PUBLIC-IP>
 
 Typed yes if prompted to confirm host authenticity.
